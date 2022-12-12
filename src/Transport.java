@@ -9,7 +9,6 @@ public abstract class Transport {
         this.model = validateCarParameters(model);
         this.enginePower = ValidateUtils.validateInteger(enginePower,2);
     }
-
     private String validateCarParameters(String model) {
         return model;
     }

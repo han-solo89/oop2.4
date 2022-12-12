@@ -10,7 +10,6 @@ public class Car extends Transport implements Competing {
     }
     @Override
     void startToMove() { System.out.println("Car started");}
-
     @Override
     void finish() { System.out.println("Car finished");}
 

@@ -17,6 +17,5 @@ public class ValidateUtils {
     public String toString() {
         return "ValidateUtils{}";
     }
-
 }
 
