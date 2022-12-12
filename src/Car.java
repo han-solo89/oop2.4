@@ -8,7 +8,6 @@ public class Car extends Transport implements Competing {
         this.maxSpeed = maxSpeed;
         this.bestLapTime = bestLapTime;
     }
-
     @Override
     void startToMove() { System.out.println("Car started");}
 

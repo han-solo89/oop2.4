@@ -1,5 +1,4 @@
 import java.util.Objects;
-
 public abstract class Transport {
     private final String brand;
     private final String model;
